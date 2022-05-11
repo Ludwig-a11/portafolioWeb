@@ -288,13 +288,13 @@ h1{
 }
 
 .skills-title{
+    background: #1f1d2c;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 2rem;
     font-weight: 600;
-    
-    
+    padding-top: 40px;
 }
 
 .skills-info{
@@ -312,6 +312,7 @@ h1{
     font-weight: 400;
     display: inline-block;
     margin-right: 25px;
+    color: #f1a600;
 }
 
 .skills-names{
@@ -329,4 +330,57 @@ h1{
     font-weight: 200;
     display: inline-block;
     margin-left: 25px;
+}
+
+/*------------Portafolio-------------*/
+
+.Portafolio{
+    background: #1f1d2c; 
+    min-height: 80vh;
+
+}
+
+.portafolio-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+/*------------------Contact--------------*/
+
+.Contact{
+    background: rgba(81, 83, 95, 1);
+    min-height: 60vh;
+}
+
+.contact-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/*-----------------footer------------------*/
+footer{
+    background: #1f1d2c;
+    color: #e5e5e5;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 50px;
 }
