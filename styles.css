@@ -87,7 +87,7 @@ img{
 
 .name h2{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     margin:auto;
     width: 90%;
@@ -337,6 +337,7 @@ h1{
 .Portafolio{
     background: #1f1d2c; 
     min-height: 80vh;
+    padding-bottom: 40px;
 
 }
 
@@ -347,13 +348,51 @@ h1{
     font-size: 2rem;
     font-weight: 600;
     padding-top: 40px;
+    
+}
+
+.portafolio-img{
+    width: 90%;
+    margin: auto;
+}
+
+.portafolio-img img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    object-fit:cover;
+}
+
+.ecommerce{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.training{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 50px;
+    
+}
+
+.toDo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 70px;
 }
 
 /*------------------Contact--------------*/
 
 .Contact{
     background: rgba(81, 83, 95, 1);
-    min-height: 60vh;
+    min-height: 70vh;
+    
+    
 }
 
 .contact-name{
@@ -369,7 +408,28 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 20rem;
+    margin: auto;
     
+}
+
+.number {
+    height: 10rem;
+        
+}
+
+.email{
+    height: 10rem;
+}
+
+.number i:hover{
+    color: #f1a600;
+}
+
+.email i:hover{
+    color: #f1a600;
 }
 
 /*-----------------footer------------------*/
