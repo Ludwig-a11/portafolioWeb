@@ -12,14 +12,21 @@
 <body>
     <div class="main-container">
         <div class="intro">
+           
             <div class="rect-bg"></div>
             <div class="p-relative">
-                <nav class="menu">
+                <div class="text-right">
+                    <botton onclick="toggleMenu()" class="icon-menu">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </botton>
+                </div>      
+                <nav id="main-menu" class="menu hidden" >
+                        
                     <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
                             <a href="#">About me</a>
                         </li>
                         <li>
@@ -51,7 +58,7 @@
                             </span>    
                                 
                             <span class="icon-container">
-                                <a href="#" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" title="Discord"><i class="fa-brands fa-discord fa-lg"></i></a>
                             </span>    
                                 
                             <span class="icon-container">
@@ -204,5 +211,6 @@
             
         </footer>
     </div>
+    <script src="./JavaScript.js"></script>
 </body>
 </html>
