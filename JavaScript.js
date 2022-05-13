@@ -1,6 +1,7 @@
+
 function toggleMenu(){
-   const menu = document.getElementsById('main-menu');
-   menu.classList.toggle(hidden);
+   const menu = document.getElementById('main-menu');
+   menu.classList.toggle('hidden');
     
    
 }
